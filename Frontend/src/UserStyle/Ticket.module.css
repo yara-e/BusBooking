@@ -1,0 +1,85 @@
+.searchForm {
+	max-width: 40rem;
+	margin-inline: auto;
+	margin-block: 4rem;
+
+	display: flex;
+}
+
+#request {
+	background-color: #435d7d;
+	color: white;
+	border-radius: 10px;
+	padding: 10px 5px;
+	width: 100px;
+	display: block;
+	margin-left: auto;
+	cursor: pointer;
+	transition: all 0.3s;
+	outline: none;
+	border-color: transparent;
+}
+
+#request:hover {
+	background: #435d7d;
+	color: #fff;
+	transform: scale(1.1);
+}
+
+.ticket {
+	background: #fff;
+	padding: 34px;
+	border-radius: 6px;
+	box-shadow: 0 0px 5px 5px rgba(0, 0, 0, 0.2);
+	margin-bottom: 2rem;
+
+	max-width: 40rem;
+	margin-inline: auto;
+}
+
+.ticket:last-of-type {
+	margin-bottom: 5rem;
+}
+
+.wrappers h2 {
+	background: #fff;
+	color: #435d7d;
+}
+
+.wrappers h3 {
+	background: #fff;
+}
+
+.searchTerm {
+	width: 100%;
+	border: 3px solid #435d7d;
+	border-right: none;
+	padding: 5px;
+	height: 36px;
+	border-radius: 5px 0 0 5px;
+	outline: none;
+}
+
+.searchTerm:focus {
+	color: #435d7d;
+}
+
+.searchButton {
+	width: 40px;
+	height: 36px;
+	border: 1px solid #435d7d;
+	background: #435d7d;
+	text-align: center;
+	color: #fff;
+	border-radius: 0 5px 5px 0;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+i {
+	transition: all 0.3s;
+}
+
+i:hover {
+	transform: scale(1.2);
+}
